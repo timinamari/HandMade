@@ -1,0 +1,150 @@
+* {
+	font-family: 'Inter', sans-serif;
+}
+
+.font_bold {
+	font-weight: 800;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.font_regular {
+	font-weight: 400;
+	font-size: 24px;
+}
+
+a {
+	color: #272727;
+}
+a:hover {
+	text-decoration: none;
+	color: #272727;
+}
+.logo {
+	margin-top: 27px;
+}
+.consultation_wrapper {
+	margin-top: 44px;
+	padding-left: 110px;
+}
+.consultation {
+	background: linear-gradient(74.85deg, #EECE5C 0.44%, #EAC959 1.68%, #D1AA44 10.19%, #BF9336 18.47%, #B4862D 26.33%, #B0812A 33.32%, #BB9137 44.34%, #D8BA5B 65.71%, #E0C564 70.96%, #DDC05E 76.19%, #D5B34E 82.93%, #C79D34 90.51%, #B47F0F 98.64%, #B07908 100%);
+	border-radius: 30px;
+	width: 250px;
+	height: 44.04px;
+	border: none;
+}
+
+.header_social {
+	margin-top: 49px;
+	padding-left: 160px;
+}
+.insta {
+	padding-right: 10px;
+}
+.vk {
+	padding-left: 10px;
+}
+.user_info {
+	margin-top: 42px;
+}
+.login {
+	text-decoration: underline;
+}
+.shopping_basket {
+	margin-right: 10px;
+}
+
+.menu {
+	background-color: #392F6B;
+	margin-top: 20px;
+	height: 53px;
+	
+}
+.menu_links {
+	list-style-type: none;
+	display: flex;
+   justify-content: space-between;
+	padding-top: 15px;
+}
+
+.menu_item {
+	border-right: 1px solid #fff;
+	padding-right: 28px;
+}
+
+.menu_item:last-child {
+	border-right: none;
+}
+
+.menu_item:nth-child(4n) {
+	border-right: none;
+}
+
+.search {
+	background-color: #392F6B;
+	border-color: #fff;
+	width: 265px;
+	height: 28px;
+	padding: 5px 2px 5px 25px;
+	background: url(../img/icons/loupe.svg) no-repeat 0 50%;
+}
+
+.menu_link {
+	color: #fff;
+}
+.menu_link:hover {
+	color: #fff;
+}
+
+.slider {
+	height: 600px;
+}
+
+.slider_title {
+	font-size: 48px;
+}
+
+.slider_text {
+	text-align: center;
+}
+
+.slider_item {
+	position: relative;
+}
+
+.slider_info {
+	position: absolute;
+	top: 40%;
+	left: 33%;
+	color: #fff;
+}
+
+.slider_wrapper {
+	position: relative;
+} 
+
+.slick-prev {
+	border: none;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 2;
+	background: none;
+	left: 410px;
+}
+
+.slick-next {
+	border: none;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 2;
+	background: none;
+	right: 410px;
+}
+
+@media screen and (max-width: 1200px){
+
+	
+}
